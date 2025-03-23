@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>nelix services</title>
+    <script>
+      
+        let originalTitle = "MEDOSAN";
+        let movingTitle = "By @med0san";
+        let currentTitle = originalTitle;
+        
+        function updateTitle() {
+            document.title = currentTitle === originalTitle ? movingTitle : originalTitle;
+            currentTitle = document.title;
+        }
+
+        setInterval(updateTitle, 1000); 
+    </script>
+    <style>
+        /* Custom cursor CSS */
+        body {
+            cursor: url('custom-cursor.cur'), auto; 
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <h2><a href="https://guns.lol/medosan" target="_blank" rel="noopener noreferrer">click me </a></h2>
+        <div class="mid-spot" onclick="document.body.classList.toggle('gold');"></div>
+        <button class="contact-btn" onclick="window.open('https://discord.gg/nelix', '_blank');">
+            <span class="glow"></span>
+            <span class="contact-btn-content">😊</span>
+        </button>
+  
+        <div class="spotlight">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+  
+    <canvas id="particleCanvas"></canvas>
+  
+    <div class="accent-lines">
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="heroSubP">
+        <p>Introducing</p>
+    </div>
+    <div class="hero">
+        <div class="heroT">
+            <h2>Nelix</h2>
+            <h2>Nelix</h2>
+        </div>
+    </div>
+    <p class="heroP">Cheats.<br>
+        And spoofers.</p>
+    <div class="mountains">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="hero-spacer"></div>
+  
+    <div class="content-section">
+        <div class="content-acc">
+            <div></div>
+            <div></div>
+        </div>
+        <p class="subt">Get our features today</p>
+        <h3 class="title">What are you waiting for ?<br>
+            Join Nelix</h3>
+        <p class="subp">We offer cheap solutions for FiveM, Valorant, Fortnite, and CS2.We provide a range of built-in features, including a fully maintained spoofer, ESP, AimBot, Movement Features, Fake admin, etc ensuring top-notch performance. Join our Discord today to get started!</p>
+    </div>
+</body>
+</html>
